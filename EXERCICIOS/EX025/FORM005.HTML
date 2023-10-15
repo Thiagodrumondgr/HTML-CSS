@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplos de formularios</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas"> <label for="isxmas">Masculino</label><br>
+            <input type="radio" name="sexo" id="isxfem" checked> <label for="isxfem">Feminio</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label><br>
+            <input type="checkbox" name="esfut" id="iesfut" checked> <label for="iesfut" >futebol</label><br>
+            <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natação</label><br>
+            <input type="checkbox" name="esten" id="iesten"> <label for="iesten">Tênis</label><br>
+            
+        </fieldset>
+<p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+</p>
+
+    </form>
+    <!--
+        Label: Relacionar a palavra ao botão( clicando no nome ja seleciona a caixa)
+        checked: Deixa a caixa marcada automatico
+        fieldset: Caixa de formulario
+        legend: Legenda de formulario
+        Input radio: MArcação de sexo com 1 opção só(deixar os nomes no input igual para ele selecionar somene 1)
+
+    -->
+    
+</body>
+</html>
