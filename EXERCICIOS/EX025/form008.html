@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+   <form action="cadastro.php" method="get" autocomplete="on">
+    <p>
+        <label for="inu">Numero 1</label>
+        <input type="number" name="n1" id="in1" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+    </p>
+    <p>
+        <label for="inu">Numero 2 </label>
+        <input type="number" name="n2" id="in2" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+    </p>
+    <p>
+        <label for="isoma">Soma:</label>
+        <output name="soma" id="isoma">0</output>
+    </p>
+    <p>
+        <label for="inum">Número</label>
+        <input type="range" name="num" id="inum" min="0" max="10" value="5"
+        oninput="ival.innerHTML = Number(inum.value)">
+
+        <output id="ival">5</output>
+    </p>
+
+
+   <p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Apagar">
+   </p>
+</form>
+<!--
+
+    Output:E usada para exibir o resultado de um cálculo 
+    ou de uma operação. Ela é especialmente útil quando se está
+     trabalhando com formulários e precisa-se mostrar o resultado
+      de algum processamento ou cálculo diretamente na página web.
+
+      oniput: É usado para definir uma função JavaScript que será 
+      executada quando o valor do elemento for alterado pelo usuário.
+       É útil para capturar eventos em tempo real, como quando o usuário 
+       digita algo em um campo de texto ou seleciona uma opção em um menu suspenso. 
+-->
+    
+</body>
+</html>
