@@ -1,5 +1,4 @@
 @charset "UTF-08";
-/* configurações gerais*/
 *{
     margin:  0px;
     padding: 0px;
@@ -18,5 +17,3 @@ h1{
     text-shadow:  2px 2px 0px rgb(11, 2, 138);
     padding: 10px;
 }
-
-  
