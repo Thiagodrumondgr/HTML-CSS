@@ -10,7 +10,9 @@ html, body{
    
     width: 100vw;
     height: 100vh;
-    background-color: rgb(15, 46, 219);
+    background-color:#233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 h1{
     color: white;
